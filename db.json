@@ -2,39 +2,21 @@
   "todos": [
     {
       "title": "Redux Toolkit bilan ishlash",
-      "completed": false,
+      "completed": true,
       "createdAt": "2025-10-29T11:00:00Z",
       "id": "2"
     },
     {
-      "id": "5251",
-      "title": "fer",
-      "completed": false
+      "id": "e290",
+      "title": "efer",
+      "completed": false,
+      "createdAt": "2025-10-29T12:34:10.895Z"
     },
     {
-      "id": "b456",
-      "title": "john",
-      "completed": false
-    },
-    {
-      "id": "80b6",
-      "title": "erere",
-      "completed": false
-    },
-    {
-      "id": "b190",
-      "title": "e",
-      "completed": false
-    },
-    {
-      "id": "d29b",
-      "title": "ew",
-      "completed": false
-    },
-    {
-      "id": "ea7f",
-      "title": "ww",
-      "completed": false
+      "id": "c30f",
+      "title": "erf",
+      "completed": false,
+      "createdAt": "2025-10-29T12:34:12.453Z"
     }
   ]
 }

@@ -13,10 +13,15 @@ export const todoApi = createApi({
       query: (newTodo) => ({
         url: "/todos",
         method: "POST",
-        body: newTodo,
+        body: {
+          ...newTodo,
+          completed: false,
+          createdAt: new Date().toISOString(),
+        },
       }),
       invalidatesTags: ["Todo"],
     }),
+
     updateTodo: builder.mutation({
       query: ({ id, ...updatedTodo }) => ({
         url: `/todos/${id}`,
