@@ -38,13 +38,11 @@ git clone https://github.com/F2RUZ/redux-todo
 cd redux-todo
 Устанавливаем зависимости:
 
-bash
-Copy code
+
 npm install --legacy-peer-deps
 Запускаем два сервера одновременно (Vite + JSON Server):
 
-bash
-Copy code
+
 npm run dev:all
 После запуска:
 
